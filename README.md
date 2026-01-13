@@ -1,13 +1,16 @@
 # Supermarket Product Clustering
 Market Basket Analysis using the Apriori algorithm to identify product associations and optimize supermarket shelf placement and cross-selling strategies.
 
+## Dataset
+This project used the dataset [Supermarket Sales Dataset](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales/data) from Kaggle.
+
 ## 1 Business Understanding
 
-### **Business Objective**
+### Business Objective
 Determine products that are frequently purchased together.\
-Provide actionable recommendations for shelf placement.\
+Provide actionable recommendations for shelf placement.
 
-### **Success Criteria**
+### Success Criteria
 Identification of at least 10 high-confidence association rules.\
 Actionable recommendations for at least 3 product categories.\
-Creation of a visualization map (Network Graph) showing product relationships.\
+Creation of a visualization map (Network Graph) showing product relationships.
