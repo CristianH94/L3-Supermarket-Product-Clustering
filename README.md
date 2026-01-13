@@ -1,4 +1,4 @@
-# Supermarket Product Clustering
+# Store Product Clustering
 This analysis examined customer purchasing behavior using the Apriori algorithm. After filtering for rules with meaningful lift (< 2.5) and high confidence (> 0.4), we identified a focused set of marketing rules revealing clear patterns in membership status, product preferences, payment methods, gender, and branch location.\
 The key findings highlight untapped opportunities in membership conversion, category-targeted campaigns, and branch-specific promotions.
 
