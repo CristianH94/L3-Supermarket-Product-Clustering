@@ -47,9 +47,19 @@ rules <- apriori(transactions,
 sorted_rules <- sort(rules, by = "lift", decreasing = TRUE)
 final_rules <- sorted_rules[!is.redundant(sorted_rules)]
 summary(final_rules)
+
+# Evaluation & Visualization ----
 # A lift of 1.1 means the association is 10% stronger than random chance
 interesting_rules <- subset(final_rules, lift > 1.2)
 
 marketing_rules <- subset(interesting_rules, lift < 2.5)
-inspect(head(marketing_rules, 15))
-plot(marketing_rules, method = "graph", engine = "htmlwidget")
+marketing_rules <- marketing_rules[c(2, 3, 4, 6, 8, 10, 12, 14, 25, 26)]
+inspect(marketing_rules)
+
+marketing_plot <- plot(marketing_rules, method = "graph", engine = "htmlwidget")
+marketing_plot
+htmlwidgets::saveWidget(marketing_plot, "images/marketing_rules.html")
+rules_df <- as(marketing_rules, "data.frame")
+ggplot(rules_df, aes(x = support, y = confidence, color = lift)) +
+  geom_point(alpha = 0.7) +
+  labs(title = "Marketing Rules Scatter Plot", x = "Support", y = "Confidence")

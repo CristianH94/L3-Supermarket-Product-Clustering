@@ -1,5 +1,6 @@
 # Supermarket Product Clustering
-Market Basket Analysis using the Apriori algorithm to identify product associations and optimize supermarket shelf placement and cross-selling strategies.
+This analysis examined customer purchasing behavior using the Apriori algorithm. After filtering for rules with meaningful lift (< 2.5) and high confidence (> 0.4), we identified a focused set of marketing rules revealing clear patterns in membership status, product preferences, payment methods, gender, and branch location.\
+The key findings highlight untapped opportunities in membership conversion, category-targeted campaigns, and branch-specific promotions.
 
 ## 1 Business Understanding
 ### Business Objective
@@ -59,3 +60,8 @@ Some rules were ignored due to redundancy with similar rules with better confide
 | 14   | Female customers buying Home & Lifestyle products are likely to be **members**         | Use Home & Lifestyle as a **membership retention category** with member-only bundles                           | **67.0%**  |
 | 25   | Home & Lifestyle purchases are relatively more likely to use **e-wallets**             | Offer **e-wallet-exclusive discounts** for Home & Lifestyle products                                           | **40.0%**  |
 | 26   | E-wallet users are more likely to purchase Home & Lifestyle items                      | Cross-promote Home & Lifestyle items in **e-wallet payment interfaces**                                        | **18.6%**  |
+### Visualization
+The resulting network visualization can be explored [here](images/marketing_rules.html).
+
+## Conclusions
+The analysis successfully uncovered actionable co-purchase patterns that support both operational and marketing objectives. Membership conversion opportunities are most pronounced among male customers using cash or e-wallet payments, while female members present opportunities to promote Sports & Travel and Home & Lifestyle products. Branch-specific insights allow tailored strategies for Alex, Giza, and Cairo, and payment-method correlations inform digital payment incentives and product placement decisions. Implementing the identified recommendations—such as category-focused promotions, membership campaigns, and optimized shelf placement—can improve sales, customer engagement, and loyalty, while the network graph visualization provides a clear, interpretable map of product associations for strategic decision-making.
