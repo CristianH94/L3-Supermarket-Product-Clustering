@@ -61,7 +61,7 @@ Some rules were ignored due to redundancy with similar rules with better confide
 | 25   | Home & Lifestyle purchases are relatively more likely to use **e-wallets**             | Offer **e-wallet-exclusive discounts** for Home & Lifestyle products                                           | **40.0%**  |
 | 26   | E-wallet users are more likely to purchase Home & Lifestyle items                      | Cross-promote Home & Lifestyle items in **e-wallet payment interfaces**                                        | **18.6%**  |
 ### Visualization
-The resulting network visualization can be explored [here](images/marketing_rules.html).
+The resulting network visualization can be explored [here](./images/marketing_rules.html){:target="_blank"}.
 
 ## Conclusions
 The analysis successfully uncovered actionable co-purchase patterns that support both operational and marketing objectives. Membership conversion opportunities are most pronounced among male customers using cash or e-wallet payments, while female members present opportunities to promote Sports & Travel and Home & Lifestyle products. Branch-specific insights allow tailored strategies for Alex, Giza, and Cairo, and payment-method correlations inform digital payment incentives and product placement decisions. Implementing the identified recommendations—such as category-focused promotions, membership campaigns, and optimized shelf placement—can improve sales, customer engagement, and loyalty, while the network graph visualization provides a clear, interpretable map of product associations for strategic decision-making.
