@@ -4,12 +4,12 @@ The key findings highlight untapped opportunities in membership conversion, cate
 
 ## 1 Business Understanding
 ### Business Objective
-Determine products that are frequently purchased together.\
-Provide actionable recommendations for shelf placement.
+:heavy_check_mark: Determine products that are frequently purchased together.\
+:heavy_check_mark: Provide actionable recommendations for shelf placement.
 ### Success Criteria
-Identification of at least 10 high-confidence association rules.\
-Actionable recommendations for at least 3 product categories.\
-Creation of a visualization map (Network Graph) showing product relationships.
+:heavy_check_mark: Identification of at least 10 high-confidence association rules.\
+:heavy_check_mark: Actionable recommendations for at least 3 product categories.\
+:heavy_check_mark: Creation of a visualization map (Network Graph) showing product relationships.
 
 ## 2 Data Understanding
 **Source:** [Supermarket Sales Dataset](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales/data)\
