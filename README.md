@@ -24,3 +24,7 @@ Creation of a visualization map (Network Graph) showing product relationships.
 1. Converted all column headers to snake_case for consistency.
 2. Converted the string-based date column into a standardized ISO-8601 date format.
 3. Extracted hour and weekday from the transaction timestamps. This allows the business to see if product associations change depending on the time of day
+4. ANOVA test One-Way was conducted to determineif the time of day has a statistically significant effect on transaction profitability.
+5. There is no statistically significant difference in the mean gross income across different hours of operation.
+>F(10, 989) = 1.076
+>p = 0.378
