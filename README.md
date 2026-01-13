@@ -3,11 +3,11 @@ Market Basket Analysis using the Apriori algorithm to identify product associati
 
 ## 1 Business Understanding
 
-***Business Objective**
+### **Business Objective**
 Determine products that are frequently purchased together.
 Provide actionable recommendations for shelf placement.
 
-**Success Criteria**
+### **Success Criteria**
 Identification of at least 10 high-confidence association rules.
 Actionable recommendations for at least 3 product categories.
 Creation of a visualization map (Network Graph) showing product relationships.
