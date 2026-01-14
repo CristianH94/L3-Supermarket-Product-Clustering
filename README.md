@@ -26,7 +26,7 @@ The key findings highlight untapped opportunities in membership conversion, cate
 2. Converted the string-based date column into a standardized ISO-8601 date format.
 3. Extracted `hour` and `weekday` from the transaction timestamps. This allows the business to see if product associations change depending on the time of day
 4. Each branch is associated to a specific city. Only `branch` will be considered for the basket analysis.
-5. ANOVA test One-Way was conducted to determine if the time of day has a statistically significant effect on transaction profitability.
+5. ANOVA One-Way test was conducted to determine if the time of day has a statistically significant effect on transaction profitability.
 6. There is no statistically significant difference in the mean gross income across different hours of operation.
 >F(10, 989) = 1.076;
 >p = 0.378
